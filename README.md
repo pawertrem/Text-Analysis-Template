@@ -1,9 +1,10 @@
 # Text-Analysis-Template
 
-Приведеннный пример текстового анализа включает в себя 4 этапа:
-1) Лемматизация текста и удаление стоп-слов
-2) Частотный анализ
-3) Анализ тональности
-4) Тематическое моделирование
+The given example of text analysis includes 4 steps:
 
-Личный опыт показывает, что для последних 2-ух этапов наилучшие результаты получаются с помощью transformer-based подходов. Для анализа тональностей в приведенном шаблоне используется модель "rubert-base-cased-sentiment", для тематического моделирования - BERTopic. 
+1) Lemmatization of text and removal of stop words
+2) Frequency analysis
+3) Sentiment analysis
+4) Topic modeling
+
+Personal experience shows that the best results  for the last 2 steps are obtained with transformer-based approaches. For Sentiment analysis in this template the rubert-base-cased-sentiment model is used, for topic modeling the BERTopic is used.
